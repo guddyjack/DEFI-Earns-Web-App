@@ -4,7 +4,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
 
 // Fetch Blogger Articles
 const loadBloggerArticles = async () => {
-    const url = 'https://cors-anywhere.herokuapp.com/https://defiearns.blogspot.com/feeds/posts/default?alt=json';
+    const url = 'https://cors-anywhere.herokuapp.com/https://defiearns.blogspot.com/feeds/posts/default';
 
     try {
         const response = await fetch(url);

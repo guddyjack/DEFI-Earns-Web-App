@@ -4,7 +4,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
 
 // Fetch Blogger Articles
 const loadBloggerArticles = async () => {
-    const url = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://yourblogname.blogspot.com/feeds/posts/default?alt=json');
+    const url = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://defiearns.blogspot.com/feeds/posts/default?alt=json');
 
     try {
         const response = await fetch(url);
